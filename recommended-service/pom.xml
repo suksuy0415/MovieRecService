@@ -8,10 +8,10 @@
   <packaging>jar</packaging>
 
   <name>Recommended Service</name>
-  <url>http://maven.apache.org</url>
+
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
     <java.version>17</java.version>
     <spring-cloud.version>2022.0.2</spring-cloud.version>
 
