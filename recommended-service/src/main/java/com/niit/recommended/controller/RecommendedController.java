@@ -16,7 +16,7 @@ import static org.springframework.cglib.core.TypeUtils.add;
 
 
 
-@CrossOrigin
+
 @RestController
 @RequestMapping("/api/v1/")
 public class RecommendedController {
@@ -97,7 +97,7 @@ public class RecommendedController {
         List<Movie> upcomingMovieList = recommendedForUser.upcomingMovieList();
         return upcomingMovieList;
     }
-    @CrossOrigin
+
     @GetMapping(value = "/thirdParty/trailer/{name}")
     public List<Trailer> getMovieTrailer(@PathVariable String name)
     {
